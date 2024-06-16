@@ -71,6 +71,18 @@ keywords = {Continual learning, Catastrophic forgetting, Knowledge distillation}
 abstract = {Deep neural networks suffer from the catastrophic forgetting phenomenon when trained on sequential tasks in continual learning, especially when data from previous tasks are unavailable. To mitigate catastrophic forgetting, various methods either store data from previous tasks, which may raise privacy concerns, or require large memory storage. Particularly, the distillation-based methods mitigate catastrophic forgetting by using proxy datasets. However, proxy datasets may not match the distributions of the original datasets of previous tasks. To address these problems in a setting where the full training data of previous tasks are unavailable and memory resources are limited, we propose a novel data-free distillation method. Our method encodes knowledge of previous tasks into network parameter gradients by Taylor expansion, deducing a regularizer relying on gradients in network training loss. To improve memory efficiency, we design an approach to compressing the gradients in the regularizer. Moreover, we theoretically analyze the approximation error of our method. Experimental results on multiple datasets demonstrate that our proposed method outperforms the existing approaches in continual learning.}
 }
 
+@article{WU2024110680,
+title = {AMMD: Attentive maximum mean discrepancy for few-shot image classification},
+journal = {Pattern Recognition},
+abbr = {PR},
+pages = {110680},
+year = {2024},
+pdf = {https://www.sciencedirect.com/science/article/pii/S003132032400431X},
+author = {Ji Wu and Shipeng Wang* and Jian Sun},
+keywords = {Few-shot learning, Metric learning, Attentive MMD},
+abstract = {Metric-based methods have attained promising performance for few-shot image classification. Maximum Mean Discrepancy (MMD) is a typical distance between distributions, requiring to compute expectations w.r.t. data distributions. In this paper, we propose Attentive Maximum Mean Discrepancy (AMMD) to measure the distances between query images and support classes for few-shot classification. Each query image is classified as the support class with minimal AMMD distance. The proposed AMMD assists MMD with distributions adaptively estimated by an Attention-based Distribution Generation Module (ADGM). ADGM is learned to put more mass on more discriminative features, which makes the proposed AMMD distance emphasize discriminative features and overlook spurious features. Extensive experiments show that our AMMD achieves competitive or state-of-the-art performance on multiple few-shot classification benchmark datasets.}
+}
+
 
 inproceedings{song2023consistency,
   title={Consistency Models},
