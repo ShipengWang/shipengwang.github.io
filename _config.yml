@@ -6,7 +6,7 @@ title: Shipeng Wang # the website title (if blank, full name will be used instea
 first_name: Shipeng
 middle_name: 
 last_name: Wang
-email: wangshipeng8128@stu.xjtu.edu.cn
+email: wangshipeng@xjtu.edu.cn
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   The personal website of Shipeng Wang.
 footer_text: >
@@ -65,7 +65,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-email: wangshipeng8128@stu.xjtu.edu.cn
+email: wangshipeng@xjtu.edu.cn
 github_username: ShipengWang # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username:  # your Twitter handle
