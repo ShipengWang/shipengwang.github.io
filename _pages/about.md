@@ -3,8 +3,8 @@ layout: about
 title: about
 permalink: /
 subtitle: |+
-  Looking for jobs <br>
-  School of Mathematics and Statistics <br>
+  Assistant Professor <br>
+  School of Life Science and Technology <br>
   <a href="https://www.xjtu.edu.cn">Xi'an Jiaotong University</a>
 
 profile:
