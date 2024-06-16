@@ -5,7 +5,7 @@ permalink: /
 subtitle: |+
   Assistant Professor <br>
   School of Life Science and Technology <br>
-  <a href="https://www.xjtu.edu.cn">Xi'an Jiaotong University</a>
+  <a href="https://gr.xjtu.edu.cn/zh/web/wangshipeng">Xi'an Jiaotong University</a>
 
 profile:
   image: profile.jpg
