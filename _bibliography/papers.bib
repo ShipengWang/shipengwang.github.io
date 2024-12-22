@@ -45,6 +45,22 @@
   abstract = {Stochastic optimization algorithms have been popular for training deep neural networks. Recently, there emerges a new approach of learning-based optimizer, which has achieved promising performance for training neural networks. However, these black-box learning-based optimizers do not fully take advantage of the experience in human-designed optimizers and heavily rely on learning from meta-training tasks, therefore have limited generalization ability. In this paper, we propose a novel optimizer, dubbed as Variational HyperAdam, which is based on a parametric generalized Adam algorithm, i.e., HyperAdam, in a variational framework. With Variational HyperAdam as optimizer for training neural network, the parameter update vector of the neural network at each training step is considered as random variable, whose approximate posterior distribution given the training data and current network parameter vector is predicted by Variational HyperAdam. The parameter update vector for network training is sampled from this approximate posterior distribution. Specifically, in Variational HyperAdam, we design a learnable generalized Adam algorithm for estimating expectation, paired with a VarBlock for estimating the variance of the approximate posterior distribution of parameter update vector. The Variational HyperAdam is learned in a meta-learning approach with meta-training loss derived by variational inference. Experiments verify that the learned Variational HyperAdam achieved state-of-the-art network training performance for various types of networks on different datasets, such as multilayer perceptron, CNN, LSTM and ResNet.}
   }
 
+
+@article{NULL_2024_Wang,
+  author = {Wang, Shipeng and Li, Xiaorong and Sun, Jian and Xu, Zongben},
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  title = {},
+  volume = {},
+  number = {},
+  year = {2024},
+  pages = {},
+  pdf = {},
+  code = {},
+  abbr = {TPAMI},
+  selected = {true},
+  abstract = {In the context of incremental learning, a network is sequentially trained on a stream of tasks, where data from previous tasks are particularly assumed to be inaccessible. The major challenge is how to overcome the stability-plasticity dilemma, i.e., learning knowledge from new tasks without forgetting the knowledge of previous tasks. To this end, we propose two mathematical conditions for guaranteeing network stability and plasticity with theoretical analysis. The conditions demonstrate that we can restrict the parameter update in the null space of uncentered feature covariance at each linear layer to overcome the stability-plasticity dilemma, which can be realized by layerwise projecting gradient into the null space. Inspired by it, we develop two algorithms, dubbed Adam-NSCL and Adam-SFCL respectively, for incremental learning. Adam-NSCL and Adam-SFCL provide different ways to compute the projection matrix. The projection matrix in Adam-NSCL is constructed by singular vectors associated with the smallest singular values of the uncentered feature covariance matrix, while the projection matrix in Adam-SFCL is constructed by all singular vectors associated with adaptive scaling factors. Additionally, we explore adopting self-supervised techniques, including self-supervised label augmentation and a newly proposed contrastive loss, to improve the performance of incremental learning. These self-supervised techniques are orthogonal to Adam-NSCL and Adam-SFCL and can be incorporated with them seamlessly, leading to Adam-NSCL-SSL and Adam-SFCL-SSL respectively. The proposed algorithms are applied to task-incremental and class-incremental learning on various benchmark datasets with multiple backbones, and the results show that they outperform the compared incremental learning methods.}
+}
+
 @ARTICLE{10113287,
   author={Li, Xiaorong and Wang, Shipeng and Sun, Jian and Xu, Zongben},
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
